@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+.venv/
+.env
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Ultralytics runs and artifacts
+runs/
+*.log
+*.csv
+
+# Model weights and exports
+*.pt
+*.onnx
+*.engine
+
+# Datasets (images/labels) — keep configs, exclude large data
+Apple-Defect-1/train/images/
+Apple-Defect-1/train/labels/
+Apple-Defect-1/test/
+train/images/
+train/labels/
+combined/
+
+# Media
+*.mp4
+*.avi
+*.mov
+

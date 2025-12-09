@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images  # use train set for validation since no separate val folder exists
+# test: ../test/images  # optional; uncomment and point to a real folder if you add a test set
+
+nc: 1
+names: ['Good apple']
+
+roboflow:
+  workspace: testroboflow-ttijj
+  project: apple-defect-yozzz-1heaz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testroboflow-ttijj/apple-defect-yozzz-1heaz/dataset/1

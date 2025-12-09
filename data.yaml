@@ -1,0 +1,5 @@
+train: ./combined/train/images
+val: ./combined/train/images  # using train as val for now
+
+nc: 2
+names: ['Good apple', 'Defect apple']
